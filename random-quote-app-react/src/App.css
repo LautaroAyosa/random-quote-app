@@ -1,0 +1,73 @@
+body {
+  background-color: antiquewhite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.creator a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  transition: .2s;
+}
+
+a:hover {
+  transition: 0.2s;
+  opacity: 1;
+}
+
+#quote-box {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 50px 50px 50px 50px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px rgb(0, 0, 0, 20%);
+}
+
+.secondaryContainer {
+  width: 90%;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#text {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  font-weight: 400;
+  background-color: rgb(218, 218, 218);
+  border: none;
+  border-radius: 5px;
+  margin: 0px 5px 0px 5px;
+}
+
+.creator {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 16px;
+}
