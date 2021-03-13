@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/LautaroAyosa.github.io/random-quote-app/static/css/main.f5c2a197.chunk.css",
+    "main.js": "/LautaroAyosa.github.io/random-quote-app/static/js/main.f0700507.chunk.js",
+    "main.js.map": "/LautaroAyosa.github.io/random-quote-app/static/js/main.f0700507.chunk.js.map",
+    "runtime-main.js": "/LautaroAyosa.github.io/random-quote-app/static/js/runtime-main.76abff24.js",
+    "runtime-main.js.map": "/LautaroAyosa.github.io/random-quote-app/static/js/runtime-main.76abff24.js.map",
+    "static/js/2.cfc6a2b3.chunk.js": "/LautaroAyosa.github.io/random-quote-app/static/js/2.cfc6a2b3.chunk.js",
+    "static/js/2.cfc6a2b3.chunk.js.map": "/LautaroAyosa.github.io/random-quote-app/static/js/2.cfc6a2b3.chunk.js.map",
+    "index.html": "/LautaroAyosa.github.io/random-quote-app/index.html",
+    "static/css/main.f5c2a197.chunk.css.map": "/LautaroAyosa.github.io/random-quote-app/static/css/main.f5c2a197.chunk.css.map",
+    "static/js/2.cfc6a2b3.chunk.js.LICENSE.txt": "/LautaroAyosa.github.io/random-quote-app/static/js/2.cfc6a2b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76abff24.js",
+    "static/js/2.cfc6a2b3.chunk.js",
+    "static/css/main.f5c2a197.chunk.css",
+    "static/js/main.f0700507.chunk.js"
+  ]
+}
