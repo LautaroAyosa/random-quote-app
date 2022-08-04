@@ -68,7 +68,7 @@ function App() {
           </div>
           <div className='secondaryContainer'>
             <div className='row'>
-              <a class="twitter-share-button" href={'https://twitter.com/intent/tweet?text=' + `${quote}` + ' - ' + `${author}`} target="_blank" rel="noreferrer">
+              <a class="twitter-share-button" href={'https://twitter.com/intent/tweet?text=' + `${quote}` + ' - ' + `${author}` + '%0A%0A' + 'Quote from https://random-quotes.lautaroayosa.com.ar/'} target="_blank" rel="noreferrer">
                 <i class="fa fa-brands fa-twitter"></i>
               </a>
             </div>
