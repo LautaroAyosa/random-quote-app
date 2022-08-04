@@ -1,6 +1,5 @@
 body {
-  background-color: antiquewhite;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,25 +19,24 @@ a:hover {
 }
 
 #quote-box {
-  width: 50vw;
+  background-color: white;
+  width: 600px;
+  min-height: 300px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-color: white;
   padding: 50px 50px 50px 50px;
   border-radius: 20px;
   box-shadow: 0px 2px 6px rgb(0, 0, 0, 20%);
 }
 
 .secondaryContainer {
-  width: 90%;
-
-}
-
-.row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
 }
 
 #text {
@@ -55,19 +53,52 @@ a:hover {
   font-weight: 300;
 }
 
-button {
+.twitter-share-button {
+  background-color: #1d9bf0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font: normal normal normal 12px/18px 'Helvetica Neue',Arial,sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+}
+.twitter-share-button:hover {
+  background-color: #0c7abf;
+}
+.fa-quote-left {
+  font-size: 50px;
+  margin: 5px 20px;
+}
+.fa-twitter {
+  font-size: 24px;
+}
+
+.new-quote-button {
   font-family: 'Montserrat', sans-serif;
-  padding: 5px;
-  font-weight: 400;
-  background-color: rgb(218, 218, 218);
+  padding: 9px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(53, 53, 53);
+  color: white;
   border: none;
   border-radius: 5px;
-  margin: 0px 5px 0px 5px;
+  transition: 0.2s;
+}
+.new-quote-button:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .creator {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 15px;
   font-size: 16px;
+}
+
+.readme-button {
+  font-size: 14px;
 }
