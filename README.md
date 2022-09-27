@@ -2,11 +2,15 @@
 This app is a random famous quote's generator. You click a button and get a new quote.
 It's a simple proyect that I did in 2 to 3 hours to get the FreeCodeCamp Front End Development Libraries Certification (React, Redux, SASS, Bootstrap and jQuery).
 
-## Available Scripts
+## Quick start
 
-In the project directory, you can run:
+How to see this project on your localhost:
 
-### `yarn start`
+### `npm install`
+
+Installs all dependencies in the package.json file.
+
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
