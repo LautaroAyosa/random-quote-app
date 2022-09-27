@@ -1,6 +1,10 @@
 # random-quote-app
 This app is a random famous quote's generator. You click a button and get a new quote.
-It's a simple proyect that I did in 2 to 3 hours to get the FreeCodeCamp Front End Development Libraries Certification (React, Redux, SASS, Bootstrap and jQuery).
+It's a simple proyect that I did to get the FreeCodeCamp Front End Development Libraries Certification (React, Redux, SASS, Bootstrap and jQuery).
+
+You can see it working in any of these links:
+- https://random-quotes.lautaroayosa.com.ar/
+- https://la-random-quote-app.herokuapp.com/
 
 ## Quick start
 
