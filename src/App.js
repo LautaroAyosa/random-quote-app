@@ -80,7 +80,7 @@ function App() {
       <div className='creator'>
         <a href='https://lautaroayosa.com.ar' target='_blank' rel="noreferrer">by LautaroAyosa</a>
         <div>
-            <a className='readme-button' href="https://github.com/LautaroAyosa/random-quote-app/blob/main/README.md" target="_blank">Readme file</a>
+            <a className='readme-button' href="https://github.com/LautaroAyosa/random-quote-app/" target="_blank">Github repository</a>
         </div>
       </div>
     </div>
