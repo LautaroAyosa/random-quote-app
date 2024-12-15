@@ -19,8 +19,9 @@
     "postcss-safe-parser": "^7.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^4.2.4"
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.4",
+    "webpack-dev-server": "^5.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",
