@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useCallback} from 'react';
 import axios from 'axios';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -33,7 +33,7 @@ function App() {
   }
   document.body.style.background = bgColor;
   
-  const quoteAPI = async () => {
+  const quoteAPI = useCallback( async () => {
     let quotesArray = [];
     try {
         const data = await axios.get('https://api.quotable.io/random');
@@ -49,11 +49,11 @@ function App() {
     } catch (error) {
       console.log(error)
     }
-  };
+  }, []);
 
   useEffect(() => {
     quoteAPI();
-  },[])
+  },[quoteAPI])
 
 
   return (
